@@ -1,0 +1,183 @@
+ <!DOCTYPE html>
+<html lang="en">  
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>p3_Clas_Graf_Pub</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <style>
+        ul li{
+            list-style-type: none;
+        }
+        #llsta{
+            display: flex;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            font-size: 15px;
+        }
+        a{
+            text-decoration: none;
+               }
+        header, nav{
+            font-family: 'Rokkitt', serif;
+        }
+        h1, h2, footer{
+            font-family: 'Open Sans', sans-serif;  
+        }
+        header, main, nav, footer{
+            padding: 0 14vw
+        }
+        /*HEADER*/
+        header a{
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 3em;
+        }
+        header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f31146;
+            color: #fed9d9;
+            height: 20vh;
+        }
+        ul li a{
+            font-weight: 400;
+            font-size: 2.5em;
+        }
+        #llista a{
+            color: aliceblue;
+        }
+        ul li:hover{
+            background-color: #1cbbae;
+        }
+        /*MAIN*/
+
+        main{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #f31146;
+            color: #fed9d9;
+            height: 65vh;
+            padding: 0 0 4em 0
+        }
+        main h2{
+            font-size: 1em; 
+            font-weight: 200;
+        }
+        main h1{
+            font-size: 2.5em; 
+            margin-top: 0.3em;
+            font-weight: 700;
+        }
+        main hgroup{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        /*FOOTER*/
+        footer address, footer a{
+            font-weight: 300;
+            font-style: normal;
+        }
+        footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f31146;
+            color: #fed9d9;
+            height: 10vh;
+            padding: 0.5em 0 0 0
+        }
+        div u1{
+            font-size: 1.5em;
+        }
+        .taula{
+            position: fixed;
+            z-index: 0;
+            top: 0;
+            left: 0;
+            width: 120px;
+            height: 100px;
+            animation-name: movtaula;
+            animation-duration: 25s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes movtaula {
+            0% {
+                top: 0%;
+                left: 0%;
+            }
+            20%{
+                top:85%;
+                left: 15%;
+                transform: rotate(-40deg);
+            }
+            40%{
+                top: 60%;
+                left: 89%;
+                transform: rotate(-90deg);
+            }
+            60%{
+                top: 10%;
+                left: 60%;
+                transform: rotate(-150deg);
+            }
+            80%{
+                top: 45%;
+                left: 37%;
+                transform: rotate(-270deg);
+            }
+            100%{
+                top: 0%;
+                left: 0%;
+                transform: rotate(-360deg);
+            }
+        }
+        </style>
+    </head>
+    <header>
+        <a>PORTFOLIO VISUAL CODE Y FIGMA</a>
+    </header>
+    <body>
+        <nav>
+        </nav>
+        <main>
+            <h1>Visual Studio Code</h1>
+            <div id="Visual Studio Code">
+            <u1>
+                <li>P1 <a href="https://josepvr02.github.io/2GP_PR1/">Práctica 1</a></li>
+                <li>P2 <a href="https://josepvr02.github.io/2GP_PR2/">Práctica 2</a></li>
+                <li>P3 <a href="https://josepvr02.github.io/2GP_PR3/">Práctica 3</a></li>
+                <li>P4 <a href="https://josepvr02.github.io/2GP_PR4/">Práctica 4</a></li>
+                <li>P5 <a href="https://josepvr02.github.io/2GP_PR5/">Práctica 5</a></li>
+                <li>P6 <a href="https://josepvr02.github.io/2GP_PR6/">Práctica 6</a></li>
+                <li>P8 <a href="https://josepvr02.github.io/2GP_PR8/">Práctica 8</a></li>   
+                <li>Portfolio <a href="https://josepvr02.github.io/Personal_Portfoli/">Portfolio</a></li>
+                <li>Este Portfolio <a href=""></a></li>
+                  </u1>
+            </div>
+            <h1>FIGMA</h1>
+            <div id="FIGMA">
+                <u1>
+                    <li>Portfoli Figma <a href="https://www.figma.com/file/DM7bK2Htt4kxS3HgN3AhLF/PORTAFOLIO-REAL?type=design&node-id=1%3A2&t=KQV6QK7W3Zcs3Vvf-1"></a></li>
+                    <li>Web Responsive <a href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FdwCM5VQ1iZBODd9T3mAbaL%2FUntitled%3Ftype%3Ddesign%26t%3DI52Y9jVO8unI8qku-1"></a></li>
+                    <li>Gallery <a href="https://www.figma.com/file/q5RvQju9vlV9qEMW71Y5Ip/p6_gallery?type=design&t=F4gpl88yRNZw2zDc-1"></a></li>                </u1>
+                </div>
+        </main>
+    </body>
+    <footer>
+        <h2>EASD Alcoi, 2n gráfica Publicitaria, Josep Vilaplana</h2>
+    </footer>
+    <div class="taula">
+        <img src="img/taula.svg" alt="taulaok">
+    </div>
+</html>
